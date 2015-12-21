@@ -27,6 +27,7 @@ Il suffit de créer sous app/modules un dossier avec le nom de votre nouveau mod
 
 <strong>Configuration du module</strong><br>
 Sous app/modules/ nomModule /nomModule.config.js : <br>
+```
 
 /**
  * Sample Module Configuration
@@ -58,3 +59,5 @@ ModuleFactory.createModule({
         }
     ]
 });
+
+```
