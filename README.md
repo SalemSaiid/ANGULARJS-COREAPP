@@ -1,10 +1,10 @@
 # ANGULARJS-COREAPP
 
-app/i18n : contient les fichiers de traduction <br />
+<strong>app/i18n :</strong> contient les fichiers de traduction <br />
 <strong>app/main :</strong> contient le module principal (Bootstrap) avec ces ressources <br />
-app/wl.init.js : Initialisation du Worklight <br />
-app/app.config.js : Fichier de configuration du module de démarrage (Bootstrap) <br />
-app/global.config.js : Fichier de configuration globale de l'application <br />
-app/global.modules.js : Fichier de déclaration des modules de l'app (Vendors et Custom modules) <br />
-assets : contient les assets et les plugins externes <br />
+<strong>app/wl.init.js :</strong> Initialisation du Worklight <br />
+<strong>app/app.config.js :</strong> Fichier de configuration du module de démarrage (Bootstrap) <br />
+<strong>app/global.config.js : </strong>Fichier de configuration globale de l'application <br />
+<strong>app/global.modules.js : </strong>Fichier de déclaration des modules de l'app (Vendors et Custom modules) <br />
+<strong>assets :</strong> contient les assets et les plugins externes <br />
 
