@@ -1,0 +1,117 @@
+#menuleft {
+	left: -50%;
+	position: fixed;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 1000;
+	border-right: 1px solid #000;
+	background-color: #FFFFFF;
+	display: block
+}
+
+#menuleft.slide {
+	left: 0
+}
+
+#menuleft h1 {
+	margin-top: 0px !important;
+	background-color: #B70000;
+	color: #eee;
+	font-size: 1.2em;
+	line-height: 50px;
+	text-align: center;
+	float: none !important
+}
+
+#menuleft a {
+	display: block;
+	width: 98%;
+	padding: 15px 0 10px 2%;
+	color: #424242;
+	/* border-bottom: 1px solid #424242 */
+}
+
+#all {
+	display: block;
+	width: 100%
+}
+
+#all.hide {
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 100%
+}
+
+#all.slide {
+	position: relative;
+}
+
+.slide, .hide {
+	transition: all 0.2s linear;
+}
+
+.hide {
+	display: inline-table !important;
+}
+
+#header {
+	background-color: #FFFFFF;
+	width: 96%;
+	height: 50px;
+	padding: 0 2%;
+	border-bottom: 4px solid #B70000;
+}
+
+#header button {
+	outline: 0;
+	overflow: visible;
+	cursor: pointer;
+	border: 0;
+	background-color: transparent; float : left;
+	width: 29px;
+	height: 28px;
+	margin-top: 12px;
+	background: transparent url("../img/menu-button.png") no-repeat;
+	float: left;
+}
+
+#header h1 {
+    text-align: center;
+    color: #B70000;
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#wrapper {
+	float: left;
+	clear: both;
+	width: 96%;
+	padding: 0 2%;
+	margin-top: 15px
+}
+
+.overlay {
+	left: 0;
+	top: 50px;
+	transition: all 0.0s linear;
+}
+
+
+.overlay.show {
+	position: fixed;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 9999
+}
+
+#menu_view_title{
+    display: inline;
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+}

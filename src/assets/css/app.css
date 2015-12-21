@@ -1,0 +1,340 @@
+/****************************************
+ * general purpose css-only components  *
+ ****************************************/
+.fm-panel {
+	background-color: #fff;
+	/* border: 1px solid black; */
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-right-radius: 3px;
+	margin-bottom: 20px;
+	padding: 10px 10px 20px 10px;
+	overflow: hidden;
+}
+
+.fm-panel>h4 {
+	background-color: #E5E5E5;
+	margin: -10px -10px 10px -10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.fm-right {
+	text-align: right;
+}
+
+/****************************************
+ * angular components                   *
+ ****************************************/
+.fm-rating {
+	color: #a9a9a9;
+	margin: 0;
+	padding: 0;
+}
+
+ul.fm-rating {
+	display: inline-block;
+}
+
+.fm-rating-pointer {
+	cursor: pointer;
+}
+
+.fm-rating li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 1px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.fm-rating .fm-selected {
+	color: #000000;
+}
+
+.fm-rating .fm-hover {
+	text-shadow: white 0 0 2px, white 0 0 2px, white 0 0 2px, white 0 0 2px,
+		blue 0 0 10px;
+}
+
+fm-rating a {
+	visibility: hidden;
+	padding-left: 7px;
+}
+
+fm-rating:hover a {
+	visibility: visible;
+}
+
+.fm-deliver-to {
+	display: block;
+	width: 450px;
+}
+
+input.ng-invalid.ng-dirty {
+	border-color: #E9322D;
+	-webkit-box-shadow: 0 0 6px #F8B9B7;
+	-moz-box-shadow: 0 0 6px #f8b9b7;
+	box-shadow: 0 0 6px #F8B9B7;
+}
+
+/****************************************
+ * route specific css                   *
+ ****************************************/
+
+/* customer */
+.fm-customer-bkg {
+	background-image: url("../img/customer_bkg.jpg");
+	opacity: 0.4;
+	height: 705px;
+}
+
+/* restaurant list */
+.fm-restaurant-list {
+	min-height: 646px !important;
+}
+
+.fm-restaurant-list table {
+	margin: -10px -20px -20px -10px;
+	width: 700px;
+}
+
+.fm-restaurant-list th:first-child {
+	width: 500px;
+}
+
+.fm-restaurant-list th {
+	width: 100px;
+}
+
+.fm-restaurant-list img {
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+/* menu */
+.fm-restaurant {
+	margin-bottom: 20px;
+}
+
+.fm-restaurant h3 {
+	margin-top: 0;
+}
+
+.fm-restaurant img {
+	width: 150px;
+	height: 150px;
+}
+
+.fm-restaurant .fm-rating {
+	display: block;
+}
+
+.fm-menu-list li {
+	list-style-type: none;
+}
+
+.fm-menu-list li span {
+	padding-right: 20px;
+}
+
+.fm-menu-list a {
+	color: inherit;
+}
+
+.fm-menu-list a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.fm-menu-list .icon-plus-sign {
+	visibility: hidden;
+}
+
+.fm-menu-list li:hover .icon-plus-sign {
+	visibility: visible;
+}
+
+.fm-menu-list li:hover {
+	color: black;
+}
+
+.fm-menu-list ul li {
+	text-align: center;
+}
+
+.fm-cart li {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.fm-cart .icon-remove-sign {
+	visibility: hidden;
+}
+
+.fm-cart li:hover .icon-remove-sign {
+	visibility: visible;
+}
+
+.fm-cart form {
+	padding-left: 2px;
+}
+
+.fm-cart p {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+/* checkout */
+.fm-checkout table {
+	width: 960px;
+	margin-left: -10px;
+}
+
+.fm-checkout table th:nth-child(2), .fm-checkout table td:nth-child(2) {
+	width: 100%;
+	text-align: left;
+}
+
+.fm-checkout table td:nth-child(1) input {
+	width: 30px;
+}
+
+.fm-checkout table th, .fm-checkout table td {
+	text-align: right;
+}
+
+.fm-checkout table tr:last-child th {
+	text-align: right;
+}
+
+input.ng-invalid {
+	border: 1px solid #B9B9B9;
+}
+
+.centerdiv{
+	text-align: center;
+}
+.input-login-password{
+	width: 90%;
+    height: 40px !important;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#navFooterBar {
+    display: table;
+    height: 60px;
+    width: 100%;
+}
+
+#navFooterBar li {
+    display: table-cell;
+    height: 60px;
+    width: 15%;  /* (100 / numItems)% */
+    line-height: 60px;
+    text-align: center;
+    background: #ddd;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+}
+/*
+#navFooterBar li a{
+    color: black !important;
+}
+*/
+
+/* mouse over link */
+#navFooterBar li a {
+    color: black !important;
+}
+
+#navFooterBar li a:hover {
+    color: red !important;
+}
+
+/* selected link */
+#navFooterBar li a:active {
+    color: red !important;
+}
+
+.form-actions{
+	    border-top: none;
+}
+.btn_login{
+	background-color: black;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    color: white;
+}
+.btn_register{
+    color: #B70000 !important;
+    font-weight: bold;
+}
+
+.save_session{
+	display: inline;
+    float: left;
+    margin-top: 4px;
+}
+#savesession{
+	float: left;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.forgetPassword{
+	    float: right;
+	    color: gray;   
+}
+.inlineFlex{
+	display: inline-flex;
+}
+/*** Credit Simulator Tabs style ***/
+.nav-tabs > li {
+    width: 50%;
+}
+/****/
+.similator .form-group-block{
+    margin: 20px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+.form-group input{
+    margin-bottom: none !important;
+}
+/*
+.nav-tabs > :first-child > a {
+    border-right: 1px solid #ddd;
+}
+
+.nav-tabs  >  a{
+  border: none;
+}
+*/
+.angular-google-map-container { 
+    height:400px; 
+}
+/* plus and minus button in slider */
+.wrapper-rz-slider{
+	width:100%; 
+}
+.minus-rz-slider{
+	float : left;
+	width: 8%;
+}
+.plus-rz-slider{
+	float:right;
+	width: 8%;	
+}
+.container-rz-slider{
+    width: 82%;
+    margin: 0 auto;
+}
+/** **/

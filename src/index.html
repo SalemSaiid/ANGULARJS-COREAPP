@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+  <meta charset="UTF-8">
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="True" name="HandheldFriendly">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="no" name="msapplication-tap-highlight">
+
+  <title>Angular Core App</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap-united.css">
+  <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/font.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/menu.css" type="text/css"/>
+  <link rel="stylesheet" href="assets/css/angular-carousel.css"  type="text/css" />
+  <link rel="stylesheet" href="assets/css/rzslider.css" type="text/css">
+</head>
+<body data-ng-controller="MainController">
+  <div id="app" class="container" data-ui-view> </div> 
+
+  <!-- jQuery -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+  <!-- Angular -->
+  <script src="assets/vendor/angular/angular.js"></script>
+
+  <script src="assets/vendor/angular/angular-animate/angular-animate.js"></script>
+  <script src="assets/vendor/angular/angular-cookies/angular-cookies.js"></script>
+  <script src="assets/vendor/angular/angular-resource/angular-resource.js"></script>
+  <script src="assets/vendor/angular/angular-sanitize/angular-sanitize.js"></script>
+  <script src="assets/vendor/angular/angular-touch/angular-touch.js"></script>
+  
+  <!-- Vendors -->
+  <script src="assets/vendor/angular/angular-ui-router/angular-ui-router.js"></script> 
+  <script src="assets/vendor/angular/ngstorage/ngStorage.js"></script>
+  <script src='assets/vendor/libs/ngGauge/gauge.min.js'></script>
+  <script src='assets/vendor/libs/ngGauge/angular-gauge.js'></script> 
+  <script src='assets/vendor/libs/rzslider.min.js'></script>
+  <script src='assets/vendor/libs/map/angular-google-maps.js'></script>
+  <!--<script src='assets/vendor/libs/map/angular-lodash.js'></script>-->
+  <script src='assets/vendor/libs/map/angular-simple-logger.js'></script>
+  <script src='assets/vendor/libs/angular-carousel.js'></script>
+    
+  	<!-- bootstrap -->
+  <script src="assets/vendor/angular/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+ 	<!-- lazyload -->
+  <script src="assets/vendor/angular/oclazyload/ocLazyLoad.js"></script>
+ 	 <!-- translate -->
+  <script src="assets/vendor/angular/angular-translate/angular-translate.js"></script>
+  <script src="assets/vendor/angular/angular-translate/loader-static-files.js"></script>
+  <script src="assets/vendor/angular/angular-translate/storage-cookie.js"></script>
+  <script src="assets/vendor/angular/angular-translate/storage-local.js"></script>
+  <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+  <script src='assets/vendor/libs/map/lodash.js'></script>
+ 	 <!-- debug -->   
+  <script src="assets/vendor/angular/ngDebug/debug.js"></script>
+
+	<!-- CommonUtils -->
+  <script src="app/main/services/loader.js"></script>
+  <script src="app/main/services/commonUtils.js"></script>
+  <script src="app/main/services/storage.js"></script>
+  <script src="app/main/services/scriptUtils.js"></script>
+
+    <!-- Modules -->
+  <script src="app/init.config.js"></script>
+
+  <!-- Custom Modules -->
+  <script src="app/modules/authentication/authentication.config.js"></script>
+  <script src="app/modules/private/private.config.js"></script>
+  <script src="app/modules/public/public.config.js"></script>
+
+
+
+  <script src="app/app.config.js"></script>
+  <script src="app/main/controllers/mainController.js"></script>   
+  
+    <!-- Directives -- Services -- filters -->
+  <script src="app/main/services/ui-load.js"></script>
+  <script src="app/main/filters/fromNow.js"></script>
+  <script src="app/main/filters/rangeNumber.js"></script>
+  <script src="app/main/directives/ui-jq.js"></script>
+  <script src="app/main/directives/ui-module.js"></script>
+  <script src="app/main/directives/ui-scroll.js"></script>
+  <script src="app/main/directives/ui-validate.js"></script>
+  <script src="app/main/directives/menu.js"></script>
+  
+</body>
+</html>

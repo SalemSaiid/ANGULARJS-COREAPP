@@ -1,0 +1,22 @@
+<!-- Menu -->
+<div data-ng-include=" 'app/main/views/menu.html' "></div>
+<!-- / Menu -->
+
+<div id="all" ng-class="{hide:showmenu,slide:!showmenu}">
+	<div class="overlay" ng-class="{show:showmenu}" ng-swipe-left="showmenu=false"></div>
+
+	<!-- Header -->
+         <div data-ng-include=" 'app/main/views/header.html' "></div>  
+	<!-- / Header -->
+
+	<div id="wrapper">
+	<!-- Content -->
+		<div class="fade-in-up" ui-view></div>
+	<!-- /Content -->
+	</div>
+</div>
+
+<!-- Footer -->
+	<div data-ng-include=" 'app/main/views/footer.html' "></div>
+<!-- / Footer -->
+

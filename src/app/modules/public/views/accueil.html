@@ -1,0 +1,15 @@
+<div class="fm-panel" data-ng-controller="PublicController">
+	<div class="col-md-6 col-md-offset-3 centerdiv">
+		<h3>Public Module</h3>
+	</div>
+	   <div class="carousel-demo">
+		<ul rn-carousel rn-carousel-index="carouselIndex3"
+			rn-carousel-transition="hexagon" rn-carousel-buffered
+			class="carousel3">
+			<li ng-repeat="slide in slides track by slide.id">
+				<div ng-style="{'background-image': 'url(' + slide.img + ')'}"
+					class="bgimage">#{{ slide.id }}</div>
+			</li>
+		</ul>
+	</div>
+</div>

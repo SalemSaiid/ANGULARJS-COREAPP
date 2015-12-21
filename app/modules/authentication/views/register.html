@@ -1,0 +1,56 @@
+<div class="fm-panel" data-ng-controller="RegisterController">
+
+	<div class="col-md-6 col-md-offset-3 centerdiv">
+		<h4>Register</h4>
+
+		<div ng-show="vm.error" class="alert alert-danger">{{vm.error}}</div>
+
+		<form name="form" ng-submit="vm.login()" role="form" action="">
+			<div class="form-group"
+				ng-class="{ 'has-error': form.username.$dirty &amp;&amp; form.username.$error.required }">
+				<span class="help-block">{{'LOGIN_VIEW_MSG' | translate}}</span>
+			</div>
+			<div class="form-group"
+				ng-class="{ 'has-error': form.username.$dirty &amp;&amp; form.username.$error.required }">
+				<!--  <label for="username">Username</label>-->
+				<input placeholder="{{'CLIENTCODE' | translate}}" type="text"
+					name="username" id="username"
+					class="form-control input-login-password" ng-model="vm.username"
+					required /> <span
+					ng-show="form.username.$dirty &amp;&amp; form.username.$error.required"
+					class="help-block">Username is required</span>
+			</div>
+
+			<div class="form-group"
+				ng-class="{ 'has-error': form.password.$dirty &amp;&amp; form.password.$error.required }">
+				<!-- <label for="password">Password</label>  -->
+				<input placeholder="{{'CARTE_CIN' | translate}}" type="password"
+					name="password" id="password"
+					class="form-control input-login-password" ng-model="vm.password"
+					required /> <span
+					ng-show="form.password.$dirty &amp;&amp; form.password.$error.required"
+					class="help-block">Password is required</span>
+			</div>
+			<div style="text-align: left; padding-left: 32px;">
+				<span>{{'EXP_CIN' | translate}}</span>
+			</div>
+			<div class="form-actions inlineFlex">
+
+				<input type="checkbox" id="savesession"> <label
+					for="savesession" class="save_session">{{'TERMS_CONDITION'
+					| translate}}</label>
+
+			</div>
+
+			<div class="form-actions">
+				<button type="submit" ng-disabled="form.$invalid || vm.dataLoading"
+					class="btn_login">{{'REGISTER' | translate}}</button>
+			</div>
+
+
+
+		</form>
+	</div>
+
+
+</div>
