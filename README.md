@@ -7,16 +7,7 @@
 
 ![alt tag](http://s22.postimg.org/8hgtavgy9/structure.png) <br><br>
 
-<strong>Création d'un moduleEdit</strong><br>
-<strong>Déclaration du module</strong><br>
-
-Il s'agit d'ajouter le module dans le fichier <strong>app/global.module.js</strong>sous l'objet CUSTOM_MODULE comme le montre l'exemple suivant : <br>
-
-    {
-        name: 'sample',
-        autoLoad: true
-    }
-
+<strong>Création d'un module</strong><br>
 <br>
 <strong>Création de l'arborescence</strong> <br>
 Il suffit de créer sous app/modules un dossier avec le nom de votre nouveau module (exp "sample") puis créer les dossiers "controllers, views, services" selon votre besoin :<br>
