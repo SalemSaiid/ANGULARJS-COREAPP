@@ -21,6 +21,6 @@ Il s'agit d'ajouter le module dans le fichier <strong>app/global.module.js</stro
     }
 
 <br>
-<strong>Création de l'arborescence</strong>
+<strong>Création de l'arborescence</strong> <br>
 Il suffit de créer sous app/modules un dossier avec le nom de votre nouveau module (exp "sample") puis créer les dossiers "controllers, views, services" selon votre besoin :<br>
 ![alt tag](http://s16.postimg.org/wkyt3gzbp/module.png) <br>
