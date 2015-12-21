@@ -8,4 +8,4 @@
 <strong>app/global.modules.js : </strong>Fichier de déclaration des modules de l'app (Vendors et Custom modules) <br />
 <strong>assets :</strong> contient les assets et les plugins externes <br />
 
-![alt tag](https://pm.proxym-it.com/attachments/download/10396/structure.png)
+![alt tag](http://www.menucool.com/slider/jsImgSlider/images/image-slider-2.jpg)
