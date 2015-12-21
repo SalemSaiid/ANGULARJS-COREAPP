@@ -1,4 +1,4 @@
-# ANGULARJS-COREAPP
+# ANGULARJS-COREAPP (structure modules)
 
 <strong>app/i18n :</strong> contient les fichiers de traduction <br />
 <strong>app/main :</strong> contient le module principal (Bootstrap) avec ces ressources <br />
