@@ -8,4 +8,14 @@
 <strong>app/global.modules.js : </strong>Fichier de déclaration des modules de l'app (Vendors et Custom modules) <br />
 <strong>assets :</strong> contient les assets et les plugins externes <br />
 
-![alt tag](http://s22.postimg.org/8hgtavgy9/structure.png)
+![alt tag](http://s22.postimg.org/8hgtavgy9/structure.png) <br><br>
+
+<strong>Création d'un moduleEdit</strong><br>
+<strong>Déclaration du module</strong><br>
+
+Il s'agit d'ajouter le module dans le fichier app/global.module.js sous l'objet CUSTOM_MODULE comme le montre l'exemple suivant : <br>
+
+    {
+        name: 'sample',
+        autoLoad: true
+    }
